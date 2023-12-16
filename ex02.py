@@ -23,3 +23,4 @@ juros_simples = taxa_juros * capital_inicial
 montante = capital_inicial+(capital_inicial*taxa_juros*tempo)
 print(f'O valor referente aos juros simples a cada mês é de: R${juros_simples}')
 print(f'O montante final é de R${montante}')
+# A resposta correta é a letra e, visto que o juros é o capital inicial * taxa, e o montante é o capital inicial + (capital inicial * taxa), que pode ser substituído por capital inicial + juros.
