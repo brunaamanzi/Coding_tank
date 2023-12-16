@@ -7,4 +7,8 @@ Consórcio - 3
 Crediário - 2
 Financiamento - 1"""
 
-produtos = ["Crediário", "Consórcio", "Consórcio", "Financiamento", "Consórcio", "Crediário"]
+produtos = ["Crediário", "Consórcio", "Consórcio", "Financiamento", "Consórcio", "Crediário","Empréstimo"]
+lista_ordenada = sorted(produtos)
+for produto in set(lista_ordenada):
+    print(f'{produto} - {produtos.count(produto)}')
+
